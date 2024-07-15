@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+
+    <div class="loading-screen position-fixed top-0 start-0 end-0 bottom-0 bg-black justify-content-center align-items-center">
+      <i class="fa fa-spinner fa-spin fa-5x"></i>
+    </div>
+
+    <div class="sidebar vh-100 text-white d-flex position-fixed">
+      
+      <div class="items bg-black p-4 d-flex flex-column justify-content-between">
+        <div class="list">
+          <ul class="list-unstyled overflow-hidden">
+            <li class="py-2 position-relative cursor-pointer" id="search">Search</li>
+            <li class="py-2 position-relative cursor-pointer" id="categories">Categories</li>
+            <li class="py-2 position-relative cursor-pointer" id="area">Area</li>
+            <li class="py-2 position-relative cursor-pointer" id="ingredients">Ingredients</li>
+            <li class="py-2 position-relative cursor-pointer" id="contact">Contact Us</li>
+          </ul>
+        </div>
+
+        <div class="nav-footer">
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="footer">
+            <p>Copyright Â© 2019 All Rights <br />Reserved.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="control bg-white d-flex justify-content-between flex-column align-items-center px-2 py-4 text-black">
+          <div class="logo">
+            <img src="images/logo.png" alt="logo" />
+          </div>
+          <div class="toggle-btn cursor-pointer">
+            <i class="fa-solid fa-bars fa-2x"></i>
+            <i class="fa-solid fa-x fa-2x d-none"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-globe d-block cursor-pointer"></i>
+            <i class="fa-solid fa-share-nodes cursor-pointer"></i>
+        </div>
+        </div>
+    </div>
+
+    <main class="main ">
+      <div class="container">
+        <div class="search-part"></div>
+        <div class="row g-4 py-5 " id="menu">
+
+        </div>
+      </div>
+    </main>
+
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
